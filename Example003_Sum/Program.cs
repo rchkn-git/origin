@@ -1,4 +1,6 @@
-﻿int a = 3;
-int b = 5;
+﻿int a = new Random().Next(1, 10);
+int b = new Random().Next(1, 10);
 int res = a + b;
-Console.WriteLine("Сумма А+Б =" + res);
+Console.WriteLine(a);
+Console.WriteLine(b);
+Console.WriteLine("Сумма А+Б = " + res);
